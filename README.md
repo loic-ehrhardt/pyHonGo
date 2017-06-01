@@ -19,6 +19,7 @@ Table of contents
 3. [Remarks](#remarks)
   * [JLPT level](#jlpt-level)
   * [Identical word class](#identical-word-class)
+  * [Enjoy](#enjoy)
 4. [Credits](#credits)
 5. [License](#license)
 
@@ -81,7 +82,7 @@ The game screen is the following :
 
 ![Game screenshot](./imgs/screenshot.png)
 
-The different bottom-left zone of the screen represents the **boxes**, with the number indicating the current number of **cards** contained inside. The current **box** is highlighted. The top-left zone shows the current **profile**, and the right zone is the current question. You have to guess the right translation among 9 possibilities.
+The bottom-left zone of the screen represents the **boxes**, with the number indicating the current number of **cards** contained inside. The current **box** is highlighted. The top-left zone shows the current **profile**, and the right zone is the current question. You have to guess the right translation among 9 possibilities.
 
 The controls are:
 
@@ -120,7 +121,7 @@ MAX_JLPT_FOR_DATABASE | Maximum JLPT level (`5` or `4`), see below for details
 
 #### Using the TV remote control
 
-:grey_exclamation: Please not that **cec-client** needs to be installed, the game must be run on a computer connected in HDMI to a TV screen, and the value of the `WITH_REMOTE` constant must be set to `True` (see above).
+:warning: **cec-client** needs to be installed, the game must be run on a computer connected in HDMI to a TV screen, and the value of the `WITH_REMOTE` constant must be set to `True` (see above).
 
 The controls of the TV remove are:
 
@@ -132,7 +133,7 @@ OK | Choose the selected translation
 Blue | Switch **profile**
 Exit | Exit the game
 
-As this has only been tested on my personal TV remote control, the key bindings are likely to be different on other TVs / TV remotes. A possible workaround is to identify manually the value of your TV remote and update them in the source file. To identify the values, run:
+As this has only been tested on my personal TV remote control, the key bindings are likely to differ on other TVs / TV remotes. A possible workaround is to manually identify the value of your TV remote and update them in the source file. To identify the values, run:
 
 ```
 python2 ./remotecontrol.py
@@ -155,6 +156,10 @@ In japanese, it is often possible to tell the word class of a word even when you
 * Some adjectives (*i-adjectives*) end with a い. Examples: 赤い (red), 重い (heavy) or 大きい (big)
 
 Thus when you are asked a translation for a word, you can eliminate the possibilities that belong to a different word class, without even understanding the meaning of the words. This is not desirable so only words of the same class of the word to translate are proposed.
+
+#### Enjoy
+
+I hope you will enjoy this game. 日本語を頑張ってね !
 
 Credits
 =======

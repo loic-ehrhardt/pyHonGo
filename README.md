@@ -12,7 +12,13 @@ Table of contents
 
 1. [Installation](#installation)
 2. [Usage](#usage)
+  * [Launching the game](#launching-the-game)
+  * [Game manual](#game-manual)
+  * [Changing the default settings](#changing-the-default-settings)
+  * [Using the TV remote control](#using-the-tv-remote-control)
 3. [Remarks](#remarks)
+  * [JLPT level](#jlpt-level)
+  * [Identical word class](#identical-word-class)
 4. [Credits](#credits)
 5. [License](#license)
 

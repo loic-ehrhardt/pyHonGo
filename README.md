@@ -12,6 +12,7 @@ Table of contents
 
 1. [Installation](#installation)
 2. [Usage](#usage)
+3. [Remarks](#remarks)
 3. [Credits](#credits)
 4. [License](#license)
 
@@ -34,6 +35,24 @@ Note however that TV remote control is not mandatory and is deactivated by defau
 
 Usage
 =====
+
+#### Launching the game
+
+To launch the game, go the folder where you installed the files and run:
+```
+python2 ./pyHonGo.py
+```
+
+#### Game manual
+
+![Game screenshot](./imgs/screenshot.png)
+
+#### Changing default settings
+
+#### Using the TV remote control
+
+Remarks
+=======
 
 Credits
 =======

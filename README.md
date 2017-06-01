@@ -4,16 +4,19 @@ pyHonGo is a [pygame](https://www.pygame.org)-based french-japanese vocabulary q
 
 * Efficient learning with the [flashcard](https://en.wikipedia.org/wiki/Flashcard) method,
 * Merging of the quizz choices by identical [word class](https://en.wikipedia.org/wiki/Part-of-speech),
-* Three independant saving profiles,* Possibility to use the TV remote control over HDMI with the [CEC](https://en.wikipedia.org/wiki/Consumer_Electronics_Control) protocol.
+* Three independant saving profiles,
+* Possibility to use the TV remote control over HDMI with the [CEC](https://en.wikipedia.org/wiki/Consumer_Electronics_Control) protocol.
 
-#  Table of contents
+Table of contents
+=================
 
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Credits](#credits)
 4. [License](#license)
 
-# Installation
+Installation
+============
 
 Simply copy all the contents to an individual folder, then run `pyHonGo.py` with a Python 2 interpreter:
 ```
@@ -25,8 +28,12 @@ sudo apt-get install python-pygame
 ```
 To use the HDMI CEC protocol to control the game with a TV remote control, 
 
-# Usage
+Usage
+=====
 
-# Credits
+Credits
+=======
 
-# License
+License
+=======
+

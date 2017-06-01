@@ -18,15 +18,19 @@ Table of contents
 Installation
 ============
 
-Simply copy all the contents to an individual folder, then run `pyHonGo.py` with a Python 2 interpreter:
+Simply copy all the contents to an individual folder, then to start the game simply run `pyHonGo.py` with a Python 2 interpreter:
 ```
 python2 ./pyHonGo.py
 ```
-The dependency **pygame** should be installed on the system. You can get some informations on the [installation details](https://www.pygame.org/wiki/GettingStarted#Pygame Installation) on the official pygame website, or if you are running under a debian-based distribution (e.g. Ubuntu) you can simply type:
+The dependency **pygame** should be installed on the system. You can get some informations on the [installation details](https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation) on the official pygame website, or if you are running under a debian-based distribution (e.g. Ubuntu) you can simply type:
 ```
 sudo apt-get install python-pygame
 ```
-To use the HDMI CEC protocol to control the game with a TV remote control, 
+To use the HDMI CEC protocol to control the game with a TV remote control, the command-line tool **cec-client** should be installed. On Ubuntu you can type:
+```
+sudo apt-get install cec-utils
+```
+Note however that TV remote control is not mandatory and is deactivated by default.
 
 Usage
 =====
